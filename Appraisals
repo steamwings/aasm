@@ -12,14 +12,14 @@ appraise 'rails_4.2' do
   gem "after_commit_everywhere", "~> 1.0"
 end
 
-appraise 'rails_4.2_mongoid_5' do
-  gem 'sqlite3', '~> 1.3.5', platforms: :ruby
-  gem 'mime-types', '~> 2', platforms: %i[ruby_19 jruby]
-  gem 'rails', '~> 4.2.11'
-  gem 'mongoid', '~> 5.0'
-  gem 'activerecord-jdbcsqlite3-adapter', '1.3.24', platforms: :jruby
-  gem "after_commit_everywhere", "~> 1.0"
-end
+# appraise 'rails_4.2_mongoid_5' do
+#   gem 'sqlite3', '~> 1.3.5', platforms: :ruby
+#   gem 'mime-types', '~> 2', platforms: %i[ruby_19 jruby]
+#   gem 'rails', '~> 4.2.11'
+#   gem 'mongoid', '~> 5.0'
+#   gem 'activerecord-jdbcsqlite3-adapter', '1.3.24', platforms: :jruby
+#   gem "after_commit_everywhere", "~> 1.0"
+# end
 
 appraise 'rails_5.2' do
   gem 'sqlite3', '~> 1.3.5', platforms: :ruby
